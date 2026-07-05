@@ -89,4 +89,3 @@ To add another language: copy `lib/l10n/app_en.arb` to `app_<locale>.arb`, trans
 ## CI
 
 `.github/workflows/ci.yml` runs on pushes to `main` and on PRs: pub get, codegen, `dart format` check, `flutter analyze`, `flutter test`, then builds and uploads a debug APK.
-# plexus
