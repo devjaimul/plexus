@@ -16,9 +16,6 @@ Future<void> main() async {
   ]);
 
   runApp(
-    ProviderScope(
-      retry: (retryCount, error) => null,
-      child: const PlexusApp(),
-    ),
+    ProviderScope(retry: (retryCount, error) => null, child: const PlexusApp()),
   );
 }
